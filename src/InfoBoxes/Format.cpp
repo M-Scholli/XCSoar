@@ -69,5 +69,5 @@ InfoBoxData::SetCommentFromBearingDifference(Angle delta)
 void
 InfoBoxData::SetCommentFromGlideRatio(fixed gr)
 {
-  FormatGlideRatio(comment.buffer(), comment.MAX_SIZE, gr);
+  FormatGlideRatio(comment.buffer(), comment.capacity(), gr);
 }
